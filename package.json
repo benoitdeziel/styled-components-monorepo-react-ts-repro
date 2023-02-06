@@ -6,9 +6,12 @@
     "packages/*"
   ],
   "scripts": {
-    "typecheck": "tsc"
+    "typecheck": "lerna run typecheck"
   },
   "dependencies": {
     "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "lerna": "^6.4.1"
   }
 }
